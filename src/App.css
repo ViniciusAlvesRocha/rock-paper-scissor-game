@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.background-image {
+  margin-top: 50px;
+  background-image: url('./images/bg-pentagon.svg');
+  background-size: 200px 22vh;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.spock-paper {
+  width: 350px;
+  display: flex;
+  /* background-color: blue; */
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rules-match{
+  position: relative;
+  top: -70px;
+}
+
+.lizard-rock {
+  position: relative;
+  top: 45px;
+  width: 300px;
+  display: flex;
+  /* background-color: red; */
+  justify-content: space-between;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.scissor-main-screen {
+  position: relative;
+  top: 25px;
 }
