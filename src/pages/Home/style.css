@@ -1,6 +1,6 @@
 .background-image {
   margin-top: 50px;
-  background-image: url('./images/bg-pentagon.svg');
+  background-image: url('../../images/bg-pentagon.svg');
   background-size: 200px 22vh;
   height: 50vh;
   background-repeat: no-repeat;
