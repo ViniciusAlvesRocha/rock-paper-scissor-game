@@ -15,9 +15,7 @@ const Match = (props) => {
     score,
     current,
     winMatch,
-    loseMatch,
-    stateRules,
-    visibleRules } = props;
+    loseMatch } = props;
   const [visible, setVisible] = useState(false);
   const [newGame, setNewGame] = useState(null);
   useEffect(() => {

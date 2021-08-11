@@ -139,6 +139,23 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
+@media (min-width: 800px) {
+
+  .effect {
+  position: absolute;
+  top: 225px;
+  left: 33%;
+  z-index: 10;
+  width: 210px;
+  height: 210px;
+  border: solid 26px rgb(255, 255, 255, .04);
+  border-radius: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
 `;
 
 export default GlobalStyle;

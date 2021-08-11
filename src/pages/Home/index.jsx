@@ -11,11 +11,7 @@ import { Link } from 'react-router-dom';
 
 function App(props) {
   console.log(props.matchs);
-  const { newGame, viewRules, stateRules } = props;
-
-  const Check = () => {
-    viewRules();
-  }
+  const { newGame } = props;
 
   return (
       <div className="App">

@@ -16,8 +16,10 @@ export const Container = styled.header`
     margin: 30px 0 30px 30px;
   }
 
-  div {
-    
+  @media (min-width: 800px) {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
   }
 `;
 

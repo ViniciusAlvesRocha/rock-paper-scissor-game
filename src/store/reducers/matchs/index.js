@@ -74,6 +74,7 @@ const matchsReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case 'NEW_GAME':
       const computer = randomItem(action.payload);
+      console.log("dentro do matchsReducer:", action.payload);
       const result = resultGame(action.payload, computer);
       return { 
         ...state,

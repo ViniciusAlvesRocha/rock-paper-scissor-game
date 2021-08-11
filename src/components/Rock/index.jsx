@@ -5,7 +5,7 @@ import imgRock from '../../images/icon-rock.svg';
 const Spock = () => {
   return (<ContainerSpock>
     <img
-      name='spock'
+      name='rock'
       src={ imgRock }
       alt='icon spock'
     />
